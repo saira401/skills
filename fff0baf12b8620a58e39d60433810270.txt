@@ -1,0 +1,12 @@
+Cybersecurity basics - study notes
+==================================
+Topic: core security concepts used in the DEMO01 exam.
+
+1. CIA triad: Confidentiality, Integrity, Availability.
+2. Phishing: deceptive messages that steal credentials. Check the sender and the URL.
+3. Passwords: prefer long unique passphrases and a password manager; enable MFA.
+4. SQL injection: use parameterised queries, never string concatenation.
+5. XSS: output-encode user data and use a strict Content-Security-Policy.
+6. Hashing is one-way, encryption is reversible with a key. MD5 and SHA-1 are broken for security use.
+7. Cookies: HttpOnly, Secure and SameSite reduce theft and CSRF.
+8. DoS/DDoS: overwhelm a service; mitigate with rate limiting and upstream filtering.
